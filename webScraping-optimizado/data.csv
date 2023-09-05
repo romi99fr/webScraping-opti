@@ -1,0 +1,281 @@
+Codi_Districte,Nom_Districte,Nom_Carrer,title,size,price,Vigilancia,Columnas,Tipo plaza,Puerta,Planta,Ciudad,Personas,Promedio_Euros,Vehicles
+9," Sant Andreu",Finestrelles,"Garaje en calle Finestrelles, Trinitat Vella, Barcelona",10 m²,14.000 €,No,None,None,automática,sótano -1," Barcelona",149826,15124.7473684211,65745
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",17 m²,25.000 €,No,None,None,None,sótano 2," Barcelona",170736,12431.811965812,66780
+9," Sant Andreu",Parellada,"Garaje en calle Parellada, Sant Andreu de Palomar, Barcelona",9 m²,15.000 €,No,None,pequeño,None,None," Barcelona",149826,15124.7473684211,65745
+9," Sant Andreu",Finestrelles,"Garaje en calle Finestrelles, Trinitat Vella, Barcelona",10 m²,14.000 €,No,None,None,automática,sótano -1," Barcelona",149826,15124.7473684211,65745
+2," Eixample",Lepant,"Garaje en calle Lepant, La Sagrada Família, Barcelona",3 m²,6.000 €,No,None,None,automática,sótano uno," Barcelona",172109,15152.3170731707,80895
+10," Sant Martí",Bilbao,"Garaje en calle Bilbao, Sant Martí de Provençals, Barcelona",9 m²,24.000 €,No,None,None,automática,None," Barcelona",239465,15323.0884353741,103094
+10," Sant Martí",Lope de Vega,"Garaje en calle Lope de Vega, El Poblenou, Barcelona",10 m²,8.750 €,No,None,None,None,None," Barcelona",239465,15323.0884353741,103094
+3," Sants - Montjuïc",Melcior de Palau,"Garaje en calle Melcior de Palau, Sants, Barcelona",10 m²,11.000 €,No,None,pequeño,None,planta primera," Barcelona",183770,14625.3931623932,79559
+7," Horta - Guinardó",Jorge Manrique,"Garaje en calle Jorge Manrique, La Vall d'Hebron, Barcelona",10 m²,4.900 €,Si,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+4," Les Corts",Galileu,"Garaje en calle Galileu, Les Corts, Barcelona",10 m²,10.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+2," Eixample",Cartagena,"Garaje en calle Cartagena, La Sagrada Família, Barcelona",8 m²,6.000 €,No,None,None,None,None," Barcelona",266857,18867.7167630058,128137
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",16 m²,19.800 €,Si,None,grande,automática,None," Barcelona",81074,22022.0350877193,48622
+5," Sarrià - Sant Gervasi",Balmes,"Garaje en calle Balmes, Sant Gervasi - Galvany, Barcelona",14 m²,28.000 €,No,None,None,None,sotano," Barcelona",266857,18867.7167630058,128137
+6," Gràcia",Legalitat,"Garaje en calle Legalitat, El Camp d'en Grassot i Gràcia Nova, Barcelona",8 m²,18.000 €,No,None,None,None,None," Barcelona",121915,18340.7471264368,57643
+4," Les Corts",Novell,"Garaje en calle Novell, Les Corts, Barcelona",10 m²,16.000 €,No,None,pequeño,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,13.000 €,No,None,None,None,planta -2," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Samaniego,"Garaje en calle Samaniego, La Teixonera, Barcelona",16 m²,27.000 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+1," Ciutat Vella",Torres i Amat,"Garaje en calle Torres i Amat, El Raval, Barcelona",10 m²,20.000 €,No,None,None,None,None," Barcelona",106028,11517.7037037037,33685
+4," Les Corts",Manila,"Garaje en calle Manila, Pedralbes, Barcelona",11 m²,22.500 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",4 m²,4.100 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",21 m²,15.900 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",4 m²,3.700 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",4 m²,4.100 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,21.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,18.500 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,20.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,20.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,20.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,26.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+2," Eixample",Rocafort,"Garaje en calle Rocafort, La Nova Esquerra de l'Eixample, Barcelona",16 m²,28.000 €,Si,None,None,None,tercera planta," Barcelona",266857,18867.7167630058,128137
+9," Sant Andreu",Cinca,"Garaje en calle Cinca, Sant Andreu de Palomar, Barcelona",12 m²,15.400 €,Si,Si,mediano,automática,sótano," Barcelona",149826,15124.7473684211,65745
+4," Les Corts",Vilamur,"Garaje en calle Vilamur, Les Corts, Barcelona",10 m²,17.500 €,Si,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+4," Les Corts",Sabino Arana,"Garaje en calle Sabino Arana, La Maternitat i Sant Ramon, Barcelona",38 m²,70.000 €,Si,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,18.500 €,No,Si,None,automática,sótano," Barcelona",81074,22022.0350877193,48622
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",13 m²,16.000 €,No,None,None,None,None," Barcelona",170736,12431.811965812,66780
+7," Horta - Guinardó",Oblit,"Garaje en calle Oblit, El Guinardó, Barcelona",8 m²,17.000 €,No,None,None,None,planta -1," Barcelona",172109,15152.3170731707,80895
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",12 m²,18.000 €,No,None,None,None,None," Barcelona",170736,12431.811965812,66780
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,16.500 €,No,None,mediano,None,planta -2," Barcelona",81074,22022.0350877193,48622
+5," Sarrià - Sant Gervasi",Roca i Batlle,"Garaje en calle Roca i Batlle, El Putxet i el Farró, Barcelona",10 m²,25.500 €,No,None,None,automática,None," Barcelona",148201,25606.7755102041,102272
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",22 m²,28.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",22 m²,28.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",22 m²,28.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",22 m²,28.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+8," Nou Barris",Molí,"Garaje en calle Molí, La Prosperitat, Barcelona",11 m²,15.000 €,Si,None,None,automática,None," Barcelona",170736,12431.811965812,66780
+9," Sant Andreu",Campeny,"Garaje en calle Campeny, Sant Andreu de Palomar, Barcelona",36 m²,42.000 €,No,None,pequeño,automática,None," Barcelona",149826,15124.7473684211,65745
+9," Sant Andreu",Campeny,"Garaje en calle Campeny, Sant Andreu de Palomar, Barcelona",10 m²,17.000 €,No,None,pequeño,automática,None," Barcelona",149826,15124.7473684211,65745
+9," Sant Andreu",Campeny,"Garaje en calle Campeny, Sant Andreu de Palomar, Barcelona",10 m²,16.000 €,No,None,pequeño,automática,None," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,14.000 €,No,None,mediano,automática,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Chopin,"Garaje en calle Chopin, La Font de la Guatlla, Barcelona",26 m²,19.500 €,No,Si,None,None,planta -1," Barcelona",183770,14625.3931623932,79559
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",12 m²,11.000 €,Si,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",23 m²,32.000 €,No,None,grande,automática,sótano," Barcelona",81074,22022.0350877193,48622
+6," Gràcia",Verdi,"Garaje en calle Verdi, Vila de Gràcia, Barcelona",10 m²,15.000 €,No,Si,None,None,None," Barcelona",121915,18340.7471264368,57643
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",15 m²,36.000 €,No,None,grande,automática,sótano," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Mata,"Garaje en calle Mata, El Poble Sec - Parc de Montjuïc, Barcelona",9 m²,16.000 €,No,None,None,automática,None," Barcelona",183770,14625.3931623932,79559
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",13 m²,14.000 €,Si,None,None,automática,None," Barcelona",81074,22022.0350877193,48622
+10," Sant Martí",Dos de Maig,"Garaje en calle Dos de Maig, El Camp de l'Arpa del Clot, Barcelona",10 m²,19.500 €,Si,None,mediano,automática,None," Barcelona",266857,18867.7167630058,128137
+9," Sant Andreu",Otger,"Garaje en calle Otger, Sant Andreu de Palomar, Barcelona",10 m²,21.000 €,No,None,None,None,None," Barcelona",149826,15124.7473684211,65745
+6," Gràcia",Sardenya,"Garaje en calle Sardenya, El Camp d'en Grassot i Gràcia Nova, Barcelona",9 m²,15.500 €,No,Si,pequeño,automática,sótano," Barcelona",266857,18867.7167630058,128137
+5," Sarrià - Sant Gervasi",Trinquet,"Garaje en calle Trinquet, Sarrià, Barcelona",30 m²,56.000 €,Si,None,None,automática,None," Barcelona",148201,25606.7755102041,102272
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",12 m²,17.000 €,No,None,None,None,planta -1," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,15.000 €,No,None,pequeño,automática,primera planta," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,19.500 €,No,None,mediano,None,planta -1," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",12 m²,24.000 €,No,None,mediano,None,planta -1," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",9 m²,16.500 €,No,None,mediano,automática,None," Barcelona",172109,15152.3170731707,80895
+1," Ciutat Vella",Ferlandina,"Garaje en calle Ferlandina, El Raval, Barcelona",2 m²,4.900 €,No,None,None,automática,sótano -3," Barcelona",106028,11517.7037037037,33685
+None," Santa Caterina i la Ribera",Doctor Aiguader,"Garaje en calle Doctor Aiguader, Sant Pere, Santa Caterina i la Ribera, Barcelona",14 m²,28.500 €,No,None,None,None,None," Ciutat Vella",106028,11517.7037037037,33685
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",6 m²,7.900 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+9," Sant Andreu",Clot,"Garaje en calle Clot, Navas, Barcelona",11 m²,14.600 €,No,None,None,None,None," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Carrera,"Garaje en calle Carrera, El Poble Sec - Parc de Montjuïc, Barcelona",10 m²,12.000 €,No,None,pequeño,None,planta -2," Barcelona",183770,14625.3931623932,79559
+6," Gràcia",Gomis,"Garaje en calle Gomis, Vallcarca i els Penitents, Barcelona",10 m²,19.000 €,No,None,None,automática,None," Barcelona",121915,18340.7471264368,57643
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,16.000 €,No,None,None,None,planta -2," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",12 m²,18.000 €,No,None,grande,None,planta -2," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",12 m²,19.500 €,Si,None,grande,None,planta -2," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",12 m²,21.000 €,No,None,None,automática,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",14 m²,33.000 €,Si,None,None,automática,segunda planta," Barcelona",81074,22022.0350877193,48622
+5," Sarrià - Sant Gervasi",Teodora Lamadrid,"Garaje en calle Teodora Lamadrid, Sant Gervasi - La Bonanova, Barcelona",12 m²,19.000 €,No,None,mediano,automática,None," Barcelona",148201,25606.7755102041,102272
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",13 m²,18.500 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+2," Eixample",Girona,"Garaje en calle Girona, La Dreta de l'Eixample, Barcelona",11 m²,16.000 €,No,None,None,None,sótano -1," Barcelona",266857,18867.7167630058,128137
+9," Sant Andreu",Tramuntana,"Garaje en calle Tramuntana, Sant Andreu de Palomar, Barcelona",16 m²,19.900 €,No,Si,None,None,Primera planta," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",9 m²,10.000 €,No,Si,None,None,None," Barcelona",81074,22022.0350877193,48622
+None," Santa Caterina i la Ribera",Sant Pere,"Garaje en Sant Pere, Santa Caterina i la Ribera, Barcelona",9 m²,9.900 €,No,None,mediano,None,None," Ciutat Vella",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",424 m²,310.000 €,No,None,None,automática,None," Barcelona",172109,15152.3170731707,80895
+4," Les Corts",Morales,"Garaje en calle Morales, Les Corts, Barcelona",15 m²,7.000 €,No,None,None,automática,None," Barcelona",81074,22022.0350877193,48622
+8," Nou Barris",Formentera,"Garaje en calle Formentera, La Prosperitat, Barcelona",12 m²,17.000 €,No,None,grande,None,None," Barcelona",170736,12431.811965812,66780
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",36 m²,20.000 €,No,None,None,None,sotano," Barcelona",81074,22022.0350877193,48622
+2," Eixample",Calàbria,"Garaje en calle Calàbria, La Nova Esquerra de l'Eixample, Barcelona",12 m²,27.000 €,No,None,None,None,semisótano," Barcelona",266857,18867.7167630058,128137
+7," Horta - Guinardó",Jerez,"Garaje en calle Jerez, Horta, Barcelona",12 m²,24.000 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",17 m²,30.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Murtra,"Garaje en calle Murtra, El Carmel, Barcelona",25 m²,26.000 €,No,None,None,automática,None," Barcelona",172109,15152.3170731707,80895
+4," Les Corts",Joan Güell,"Garaje en calle Joan Güell, Les Corts, Barcelona",9 m²,11.500 €,No,None,pequeño,automática,Planta 1," Barcelona",183770,14625.3931623932,79559
+9," Sant Andreu",Sant Sebastià,"Garaje en calle Sant Sebastià, Sant Andreu de Palomar, Barcelona",12 m²,24.000 €,No,None,None,automática,None," Barcelona",149826,15124.7473684211,65745
+2," Eixample",Rocafort,"Garaje en calle Rocafort, La Nova Esquerra de l'Eixample, Barcelona",16 m²,23.000 €,No,None,grande,automática,cuarta planta," Barcelona",266857,18867.7167630058,128137
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",12 m²,14.900 €,No,None,None,None,planta -2," Barcelona",172109,15152.3170731707,80895
+2," Eixample",Entença,"Garaje en calle Entença, La Nova Esquerra de l'Eixample, Barcelona",15 m²,20.000 €,No,None,None,automática,None," Barcelona",81074,22022.0350877193,48622
+4," Les Corts",Joan Güell,"Garaje en calle Joan Güell, Les Corts, Barcelona",12 m²,13.500 €,No,None,mediano,automática,Planta 1," Barcelona",183770,14625.3931623932,79559
+6," Gràcia",Goya,"Garaje en calle Goya, Vila de Gràcia, Barcelona",10 m²,21.000 €,No,None,None,None,primera planta," Barcelona",121915,18340.7471264368,57643
+3," Sants - Montjuïc",Guadiana,"Garaje en calle Guadiana, Sants, Barcelona",9 m²,13.000 €,No,None,None,None,sotano," Barcelona",183770,14625.3931623932,79559
+6," Gràcia",Goya,"Garaje en calle Goya, Vila de Gràcia, Barcelona",13 m²,30.000 €,No,None,grande,None,tercera planta," Barcelona",121915,18340.7471264368,57643
+9," Sant Andreu",Manigua,"Garaje en calle Manigua, El Congrés i els Indians, Barcelona",9 m²,8.000 €,No,None,pequeño,None,None," Barcelona",149826,15124.7473684211,65745
+2," Eixample",Ribes,"Garaje en calle Ribes, Fort Pienc, Barcelona",12 m²,28.000 €,No,None,None,None,None," Barcelona",266857,18867.7167630058,128137
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,15.500 €,No,None,None,None,planta -2," Barcelona",81074,22022.0350877193,48622
+5," Sarrià - Sant Gervasi",Osi,"Garaje en calle Osi, Sarrià, Barcelona",19 m²,37.000 €,Si,None,None,None,None," Barcelona",148201,25606.7755102041,102272
+7," Horta - Guinardó",França,"Garaje en calle França, Can Baró, Barcelona",10 m²,10.000 €,No,None,pequeño,automática,sótano -1," Barcelona",172109,15152.3170731707,80895
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",11 m²,15.000 €,No,None,grande,automática,planta -1," Barcelona",170736,12431.811965812,66780
+8," Nou Barris",Escultor Llimona,"Garaje en calle Escultor Llimona, Vilapicina i la Torre Llobeta, Barcelona",9 m²,14.000 €,No,None,pequeño,None,None," Barcelona",170736,12431.811965812,66780
+4," Les Corts",Novell,"Garaje en calle Novell, Les Corts, Barcelona",30 m²,17.500 €,No,None,None,automática,tercera planta," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,14.000 €,No,None,pequeño,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,19.000 €,No,None,grande,None,planta - 2," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",9 m²,16.000 €,No,None,mediano,None,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",18 m²,32.000 €,No,None,None,None,primera planta," Barcelona",172109,15152.3170731707,80895
+6," Gràcia",Llorer,"Garaje en calle Llorer, Vila de Gràcia, Barcelona",16 m²,36.000 €,No,None,None,None,None," Barcelona",121915,18340.7471264368,57643
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",9 m²,13.000 €,No,None,pequeño,None,None," Barcelona",172109,15152.3170731707,80895
+9," Sant Andreu",Doctor Santponç,"Garaje en calle Doctor Santponç, Sant Andreu de Palomar, Barcelona",10 m²,14.900 €,No,Si,None,automática,None," Barcelona",149826,15124.7473684211,65745
+2," Eixample",Nàpols,"Garaje en calle Nàpols, Fort Pienc, Barcelona",16 m²,8.000 €,No,None,pequeño,None,primera planta," Barcelona",121915,18340.7471264368,57643
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,16.500 €,No,None,None,None,tercera planta," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Dante Alighieri,"Garaje en calle Dante Alighieri, El Carmel, Barcelona",12 m²,22.000 €,No,None,grande,automática,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",23 m²,19.900 €,No,None,None,None,planta -1," Barcelona",81074,22022.0350877193,48622
+9," Sant Andreu",Dublín,"Garaje en calle Dublín, Sant Andreu de Palomar, Barcelona",10 m²,21.800 €,Si,None,grande,None,None," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",1.706 m²,1.190.000 €,No,None,None,automática,sótano," Barcelona",81074,22022.0350877193,48622
+2," Eixample",Viladomat,"Garaje en calle Viladomat, La Nova Esquerra de l'Eixample, Barcelona",10 m²,20.700 €,No,None,pequeño,automática,None," Barcelona",266857,18867.7167630058,128137
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",16 m²,13.000 €,No,None,mediano,None,planta -2," Barcelona",81074,22022.0350877193,48622
+5," Sarrià - Sant Gervasi",Major de Sarrià,"Garaje en calle Major de Sarrià, Sarrià, Barcelona",11 m²,27.000 €,No,None,None,automática,None," Barcelona",148201,25606.7755102041,102272
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",10 m²,22.000 €,No,None,None,None,sotano," Barcelona",172109,15152.3170731707,80895
+2," Eixample",Rocafort,"Garaje en calle Rocafort, La Nova Esquerra de l'Eixample, Barcelona",25 m²,38.000 €,No,None,None,automática,None," Barcelona",266857,18867.7167630058,128137
+9," Sant Andreu",Berenguer de Palou,"Garaje en calle Berenguer de Palou, La Sagrera, Barcelona",12 m²,20.000 €,No,None,None,automática,Sótano -1," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Puig i Valls,"Garaje en calle Puig i Valls, Sants-Badal, Barcelona",12 m²,23.750 €,No,None,grande,None,None," Barcelona",183770,14625.3931623932,79559
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",10 m²,9.600 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+9," Sant Andreu",Parellada,"Garaje en calle Parellada, Sant Andreu de Palomar, Barcelona",76 m²,15.000 €,No,None,mediano,None,None," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,15.000 €,No,None,mediano,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,7.900 €,No,None,pequeño,None,segunda planta," Barcelona",81074,22022.0350877193,48622
+10," Sant Martí",Freser,"Garaje en calle Freser, El Camp de l'Arpa del Clot, Barcelona",12 m²,22.000 €,No,None,None,automática,None," Barcelona",239465,15323.0884353741,103094
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",10 m²,20.750 €,No,None,None,None,sótano-1," Barcelona",170736,12431.811965812,66780
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,25.000 €,No,Si,mediano,None,primera planta," Barcelona",81074,22022.0350877193,48622
+6," Gràcia",Gomis,"Garaje en calle Gomis, Vallcarca i els Penitents, Barcelona",30 m²,29.000 €,No,None,grande,automática,None," Barcelona",121915,18340.7471264368,57643
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",15 m²,30.000 €,No,None,None,None,Planta -1," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,23.000 €,No,None,None,None,sótano," Barcelona",81074,22022.0350877193,48622
+9," Sant Andreu",Cinca,"Garaje en calle Cinca, Sant Andreu de Palomar, Barcelona",12 m²,13.000 €,No,None,None,automática,None," Barcelona",149826,15124.7473684211,65745
+4," Les Corts",Morales,"Garaje en calle Morales, Les Corts, Barcelona",11 m²,11.000 €,No,None,mediano,automática,None," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",9 m²,10.730 €,No,None,None,None,Planta -1," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",19 m²,14.900 €,No,No,grande,None,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",19 m²,18.950 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+9," Sant Andreu",Otger,"Garaje en calle Otger, Sant Andreu de Palomar, Barcelona",,21.000 €,No,None,None,None,None," Barcelona",149826,15124.7473684211,65745
+8," Nou Barris",Greco,"Garaje en calle Greco, Vilapicina i la Torre Llobeta, Barcelona",26 m²,36.000 €,No,None,grande,None,None," Barcelona",170736,12431.811965812,66780
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,17.000 €,No,None,None,automática,planta -2," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",8 m²,8.000 €,No,None,pequeño,automática,None," Barcelona",81074,22022.0350877193,48622
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",4 m²,47.900 €,No,None,None,None,None," Barcelona",170736,12431.811965812,66780
+5," Sarrià - Sant Gervasi",Teodora Lamadrid,"Garaje en calle Teodora Lamadrid, Sant Gervasi - La Bonanova, Barcelona",8 m²,28.000 €,No,None,mediano,automática,None," Barcelona",148201,25606.7755102041,102272
+2," Eixample",Provença,"Garaje en calle Provença, La Nova Esquerra de l'Eixample, Barcelona",4 m²,17.000 €,No,None,None,automática,Planta - 3," Barcelona",266857,18867.7167630058,128137
+10," Sant Martí",Arquitecte Sert,"Garaje en calle Arquitecte Sert, La Vila Olímpica del Poblenou, Barcelona",16 m²,13.500 €,No,None,None,None,None," Barcelona",239465,15323.0884353741,103094
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",9 m²,18.000 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",9 m²,18.000 €,No,None,mediano,automática,None," Barcelona",172109,15152.3170731707,80895
+5," Sarrià - Sant Gervasi",Calvet,"Garaje en calle Calvet, Sant Gervasi - Galvany, Barcelona",15 m²,20.000 €,No,None,None,None,None," Barcelona",148201,25606.7755102041,102272
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",20 m²,38.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",15 m²,12.500 €,No,None,mediano,None,None," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",10 m²,13.000 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",11 m²,13.000 €,No,None,None,automática,None," Barcelona",172109,15152.3170731707,80895
+10," Sant Martí",Marina,"Garaje en calle Marina, La Vila Olímpica del Poblenou, Barcelona",9 m²,16.000 €,No,None,pequeño,automática,primera planta," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,19.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+4," Les Corts",Galileu,"Garaje en calle Galileu, Les Corts, Barcelona",14 m²,15.500 €,No,None,None,automática,Planta -1," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",10 m²,14.500 €,No,None,mediano,None,sótano," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en calle Sants, Sants, Barcelona",9 m²,15.000 €,No,None,pequeño,None,None," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",8 m²,17.800 €,No,No,None,None,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Jocs Florals,"Garaje en calle Jocs Florals, Sants, Barcelona",10 m²,26.168 €,No,None,grande,None,None," Barcelona",183770,14625.3931623932,79559
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",13 m²,15.000 €,No,None,pequeño,None,sótano 1," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",43 m²,106.500 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+10," Sant Martí",Joan Miró,"Garaje en calle Joan Miró, La Vila Olímpica del Poblenou, Barcelona",3 m²,3.200 €,No,None,None,None,None," Barcelona",239465,15323.0884353741,103094
+5," Sarrià - Sant Gervasi",Lincoln,"Garaje en calle Lincoln, Sant Gervasi - Galvany, Barcelona",12 m²,27.000 €,No,None,None,automática,None," Barcelona",148201,25606.7755102041,102272
+10," Sant Martí",Fluvià,"Garaje en calle Fluvià, Sant Martí de Provençals, Barcelona",9 m²,14.000 €,No,None,None,None,None," Barcelona",239465,15323.0884353741,103094
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",11 m²,16.000 €,No,None,None,automática,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",11 m²,16.500 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,13.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+4," Les Corts",Torre Melina,"Garaje en calle Torre Melina, La Maternitat i Sant Ramon, Barcelona",10 m²,22.000 €,No,None,None,None,sótano -2," Barcelona",81074,22022.0350877193,48622
+4," Les Corts",Torre Melina,"Garaje en calle Torre Melina, La Maternitat i Sant Ramon, Barcelona",10 m²,21.000 €,No,None,None,None,sótano -2," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",13 m²,22.000 €,No,None,grande,automática,sótano -2," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,17.000 €,No,Si,None,None,sotano," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",10 m²,16.500 €,No,None,pequeño,None,None," Barcelona",172109,15152.3170731707,80895
+9," Sant Andreu",Segre,"Garaje en calle Segre, Sant Andreu de Palomar, Barcelona",10 m²,15.000 €,No,None,pequeño,None,None," Barcelona",149826,15124.7473684211,65745
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",11 m²,15.000 €,No,None,mediano,automática,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Congrés,"Garaje en calle Congrés, Horta, Barcelona",10 m²,21.000 €,No,None,mediano,automática,None," Barcelona",172109,15152.3170731707,80895
+9," Sant Andreu",Doctor Santponç,"Garaje en calle Doctor Santponç, Sant Andreu de Palomar, Barcelona",8 m²,12.000 €,No,No,mediano,automática,sótano," Barcelona",149826,15124.7473684211,65745
+6," Gràcia",Gran de Gràcia,"Garaje en calle Gran de Gràcia, Vila de Gràcia, Barcelona",10 m²,16.900 €,No,Si,pequeño,None,primera planta," Barcelona",121915,18340.7471264368,57643
+2," Eixample",Padilla,"Garaje en calle Padilla, La Sagrada Família, Barcelona",9 m²,15.000 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+9," Sant Andreu",Navas de Tolosa,"Garaje en calle Navas de Tolosa, Navas, Barcelona",9 m²,3.600 €,No,None,pequeño,None,None," Barcelona",149826,15124.7473684211,65745
+7," Horta - Guinardó",Lisboa,"Garaje en calle Lisboa, Horta, Barcelona",9 m²,8.000 €,No,None,pequeño,automática,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,20.500 €,No,None,None,automática,None," Barcelona",81074,22022.0350877193,48622
+8," Nou Barris",Maladeta,"Garaje en calle Maladeta, Porta, Barcelona",17 m²,17.500 €,No,None,mediano,automática,None," Barcelona",170736,12431.811965812,66780
+8," Nou Barris",Pablo Iglesias,"Garaje en calle Pablo Iglesias, La Prosperitat, Barcelona",12 m²,12.420 €,No,None,None,None,None," Barcelona",170736,12431.811965812,66780
+6," Gràcia",Nil Fabra,"Garaje en calle Nil Fabra, Vila de Gràcia, Barcelona",10 m²,15.000 €,No,None,pequeño,None,None," Barcelona",121915,18340.7471264368,57643
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,18.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",8 m²,9.500 €,No,None,None,None,primera planta," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",8 m²,13.000 €,No,None,mediano,automática,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",10 m²,22.900 €,No,None,mediano,None,None," Barcelona",172109,15152.3170731707,80895
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",9 m²,19.000 €,No,None,grande,None,None," Barcelona",170736,12431.811965812,66780
+5," Sarrià - Sant Gervasi",Madrazo,"Garaje en calle Madrazo, Sant Gervasi - Galvany, Barcelona",9 m²,16.000 €,Si,None,None,None,None," Barcelona",148201,25606.7755102041,102272
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,17.000 €,No,None,None,automática,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,14.500 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",9 m²,14.000 €,No,None,pequeño,None,planta 0," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",740 m²,1.000.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",12 m²,18.000 €,No,None,grande,automática,planta -2," Barcelona",81074,22022.0350877193,48622
+9," Sant Andreu",Palomar,"Garaje en calle Palomar, Sant Andreu de Palomar, Barcelona",9 m²,15.500 €,No,None,grande,None,Planta -2," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",14 m²,18.500 €,No,None,mediano,None,segunda planta," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",19 m²,18.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Chopin,"Garaje en calle Chopin, La Font de la Guatlla, Barcelona",10 m²,16.000 €,No,None,None,None,None," Barcelona",183770,14625.3931623932,79559
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",15 m²,22.000 €,No,None,grande,None,None," Barcelona",170736,12431.811965812,66780
+9," Sant Andreu",Gran de la Sagrera,"Garaje en calle Gran de la Sagrera, La Sagrera, Barcelona",2 m²,4.500 €,No,None,None,automática,None," Barcelona",149826,15124.7473684211,65745
+9," Sant Andreu",Gran de la Sagrera,"Garaje en calle Gran de la Sagrera, La Sagrera, Barcelona",10 m²,21.000 €,No,None,grande,automática,None," Barcelona",149826,15124.7473684211,65745
+2," Eixample",Casp,"Garaje en calle Casp, La Dreta de l'Eixample, Barcelona",9 m²,4.300 €,Si,None,None,None,None," Barcelona",266857,18867.7167630058,128137
+2," Eixample",Bruc,"Garaje en calle Bruc, La Dreta de l'Eixample, Barcelona",10 m²,16.500 €,No,Si,None,None,sótano," Barcelona",266857,18867.7167630058,128137
+2," Eixample",Padilla,"Garaje en calle Padilla, La Sagrada Família, Barcelona",9 m²,18.000 €,No,None,mediano,None,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Constitució,"Garaje en calle Constitució, La Bordeta, Barcelona",2 m²,3.900 €,No,None,None,None,None," Barcelona",183770,14625.3931623932,79559
+2," Eixample",Balmes,"Garaje en calle Balmes, L'Antiga Esquerra de l'Eixample, Barcelona",11 m²,34.000 €,No,None,mediano,None,None," Barcelona",266857,18867.7167630058,128137
+8," Nou Barris",Palamós,"Garaje en calle Palamós, La Prosperitat, Barcelona",12 m²,17.000 €,No,None,None,automática,sotano," Barcelona",170736,12431.811965812,66780
+10," Sant Martí",Frederic Mompou,"Garaje en calle Frederic Mompou, La Vila Olímpica del Poblenou, Barcelona",10 m²,14.000 €,Si,None,pequeño,None,None," Barcelona",239465,15323.0884353741,103094
+9," Sant Andreu",Segre,"Garaje en calle Segre, Sant Andreu de Palomar, Barcelona",16 m²,9.500 €,Si,None,None,None,None," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",13 m²,17.000 €,No,None,pequeño,None,planta -2," Barcelona",81074,22022.0350877193,48622
+1," Ciutat Vella",Nou de la Rambla,"Garaje en calle Nou de la Rambla, El Raval, Barcelona",12 m²,15.000 €,No,None,mediano,None,None," Barcelona",106028,11517.7037037037,33685
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",7 m²,8.000 €,No,None,pequeño,None,primera planta," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",9 m²,9.500 €,No,No,None,None,None," Barcelona",81074,22022.0350877193,48622
+6," Gràcia",Pere Serafí,"Garaje en calle Pere Serafí, Vila de Gràcia, Barcelona",14 m²,25.200 €,No,Si,mediano,None,planta -1," Barcelona",121915,18340.7471264368,57643
+2," Eixample",Marina,"Garaje en calle Marina, La Sagrada Família, Barcelona",10 m²,18.000 €,No,None,None,automática,None," Barcelona",172109,15152.3170731707,80895
+10," Sant Martí",Espronceda,"Garaje en calle Espronceda, El Poblenou, Barcelona",12 m²,25.000 €,No,None,None,None,None," Barcelona",149826,15124.7473684211,65745
+10," Sant Martí",Joan Oliver,"Garaje en calle Joan Oliver, La Vila Olímpica del Poblenou, Barcelona",12 m²,16.000 €,No,None,None,None,None," Barcelona",239465,15323.0884353741,103094
+1," Ciutat Vella",Hospital,"Garaje en calle Hospital, El Raval, Barcelona",14 m²,27.000 €,No,None,None,None,None," Barcelona",106028,11517.7037037037,33685
+5," Sarrià - Sant Gervasi",Buscarons,"Garaje en calle Buscarons, El Putxet i el Farró, Barcelona",8 m²,18.000 €,No,None,mediano,None,None," Barcelona",148201,25606.7755102041,102272
+5," Sarrià - Sant Gervasi",Doctor Roux,"Garaje en calle Doctor Roux, Les Tres Torres, Barcelona",8 m²,9.000 €,No,None,pequeño,None,None," Barcelona",148201,25606.7755102041,102272
+2," Eixample",Casp,"Garaje en calle Casp, Fort Pienc, Barcelona",9 m²,15.000 €,No,None,pequeño,None,None," Barcelona",266857,18867.7167630058,128137
+2," Eixample",Rosselló,"Garaje en calle Rosselló, La Sagrada Família, Barcelona",8 m²,14.500 €,No,Si,pequeño,automática,planta -1," Barcelona",266857,18867.7167630058,128137
+2," Eixample",Casanova,"Garaje en calle Casanova, L'Antiga Esquerra de l'Eixample, Barcelona",8 m²,22.000 €,No,None,grande,None,None," Barcelona",148201,25606.7755102041,102272
+5," Sarrià - Sant Gervasi",Mendel,"Garaje en calle Mendel, Sarrià, Barcelona",9 m²,19.000 €,No,None,mediano,None,planta -2," Barcelona",148201,25606.7755102041,102272
+8," Nou Barris",Pablo Iglesias,"Garaje en calle Pablo Iglesias, La Prosperitat, Barcelona",10 m²,8.000 €,No,None,None,None,primera planta," Barcelona",170736,12431.811965812,66780
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,29.500 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+5," Sarrià - Sant Gervasi",Mendel,"Garaje en calle Mendel, Sarrià, Barcelona",8 m²,17.000 €,No,None,grande,None,planta -2," Barcelona",148201,25606.7755102041,102272
+None," Santa Caterina i la Ribera",Sant Pere,"Garaje en Sant Pere, Santa Caterina i la Ribera, Barcelona",8 m²,22.000 €,No,Si,None,None,None," Ciutat Vella",172109,15152.3170731707,80895
+None," Santa Caterina i la Ribera",Sant Pere,"Garaje en Sant Pere, Santa Caterina i la Ribera, Barcelona",8 m²,24.000 €,No,None,None,None,None," Ciutat Vella",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",10 m²,7.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",10 m²,22.000 €,No,None,grande,automática,None," Barcelona",170736,12431.811965812,66780
+2," Eixample",Doctor Letamendi,"Garaje en calle Doctor Letamendi, L'Antiga Esquerra de l'Eixample, Barcelona",10 m²,18.000 €,No,None,None,None,Primera planta," Barcelona",172109,15152.3170731707,80895
+5," Sarrià - Sant Gervasi",Major de Sarrià,"Garaje en calle Major de Sarrià, Sarrià, Barcelona",16 m²,25.000 €,No,None,grande,None,None," Barcelona",148201,25606.7755102041,102272
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",7 m²,12.000 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+4," Les Corts",Caballero,"Garaje en calle Caballero, Les Corts, Barcelona",4 m²,7.300 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+2," Eixample",Bruc,"Garaje en calle Bruc, La Dreta de l'Eixample, Barcelona",10 m²,30.000 €,No,None,mediano,None,sótano," Barcelona",266857,18867.7167630058,128137
+9," Sant Andreu",Coll,"Garaje en calle Coll, La Sagrera, Barcelona",10 m²,14.000 €,No,Si,None,automática,None," Barcelona",149826,15124.7473684211,65745
+9," Sant Andreu",Garcilaso,"Garaje en calle Garcilaso, La Sagrera, Barcelona",8 m²,12.000 €,No,None,None,automática,None," Barcelona",149826,15124.7473684211,65745
+9," Sant Andreu",Navas de Tolosa,"Garaje en calle Navas de Tolosa, Navas, Barcelona",8 m²,4.000 €,No,None,pequeño,None,None," Barcelona",149826,15124.7473684211,65745
+2," Eixample",Casanova,"Garaje en calle Casanova, L'Antiga Esquerra de l'Eixample, Barcelona",8 m²,19.000 €,No,None,mediano,None,None," Barcelona",148201,25606.7755102041,102272
+10," Sant Martí",Rogent,"Garaje en calle Rogent, El Camp de l'Arpa del Clot, Barcelona",7 m²,11.800 €,No,None,pequeño,None,primera planta," Barcelona",239465,15323.0884353741,103094
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",7 m²,14.500 €,No,None,mediano,None,None," Barcelona",81074,22022.0350877193,48622
+3," Sants - Montjuïc",Vilardell,"Garaje en calle Vilardell, Hostafrancs, Barcelona",16 m²,11.000 €,Si,None,grande,None,sótano-3," Barcelona",183770,14625.3931623932,79559
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",11 m²,11.000 €,No,None,None,None,None," Barcelona",170736,12431.811965812,66780
+8," Nou Barris",Porta,"Garaje en Porta, Barcelona",12 m²,11.000 €,No,None,None,None,None," Barcelona",170736,12431.811965812,66780
+10," Sant Martí",Mallorca,"Garaje en calle Mallorca, El Camp de l'Arpa del Clot, Barcelona",22 m²,39.000 €,No,None,None,None,None," Barcelona",266857,18867.7167630058,128137
+3," Sants - Montjuïc",Gernika,"Garaje en calle Gernika, La Marina de Port, Barcelona",11 m²,8.600 €,No,None,None,None,None," Barcelona",183770,14625.3931623932,79559
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",3 m²,13.500 €,No,None,None,None,None," Barcelona",81074,22022.0350877193,48622
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",26 m²,23.600 €,No,None,None,None,sótano- 1," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",24 m²,21.400 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Horta,"Garaje en Horta, Barcelona",10 m²,3.900 €,No,None,None,None,sótano -1," Barcelona",172109,15152.3170731707,80895
+2," Eixample",Marina,"Garaje en calle Marina, La Sagrada Família, Barcelona",9 m²,8.000 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+9," Sant Andreu",Olesa,"Garaje en calle Olesa, La Sagrera, Barcelona",19 m²,27.000 €,Si,None,grande,None,None," Barcelona",149826,15124.7473684211,65745
+10," Sant Martí",Bilbao,"Garaje en calle Bilbao, El Clot, Barcelona",14 m²,23.500 €,No,None,None,None,None," Barcelona",239465,15323.0884353741,103094
+1," Ciutat Vella",Torres i Amat,"Garaje en calle Torres i Amat, El Raval, Barcelona",9 m²,18.000 €,No,None,mediano,None,planta -3," Barcelona",106028,11517.7037037037,33685
+2," Eixample",Rocafort,"Garaje en calle Rocafort, Sant Antoni, Barcelona",9 m²,23.000 €,No,None,None,None,planta-3," Barcelona",266857,18867.7167630058,128137
+6," Gràcia",Verdi,"Garaje en calle Verdi, Vila de Gràcia, Barcelona",2 m²,8.000 €,No,None,None,None,None," Barcelona",121915,18340.7471264368,57643
+7," Horta - Guinardó",Dante Alighieri,"Garaje en calle Dante Alighieri, El Carmel, Barcelona",21 m²,20.000 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+7," Horta - Guinardó",Flors de Maig,"Garaje en calle Flors de Maig, El Guinardó, Barcelona",4 m²,3.850 €,No,None,None,None,None," Barcelona",172109,15152.3170731707,80895
+3," Sants - Montjuïc",Sants,"Garaje en Sants, Barcelona",11 m²,17.500 €,No,None,mediano,automática,None," Barcelona",81074,22022.0350877193,48622
+9," Sant Andreu",Cortit,"Garaje en calle Cortit, La Sagrera, Barcelona",10 m²,12.400 €,No,None,pequeño,automática,None," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Sant Crist,"Garaje en calle Sant Crist, Sants, Barcelona",10 m²,18.500 €,No,None,None,automática,None," Barcelona",183770,14625.3931623932,79559
+2," Eixample",Rocafort,"Garaje en calle Rocafort, L'Antiga Esquerra de l'Eixample, Barcelona",17 m²,28.900 €,No,None,None,None,None," Barcelona",266857,18867.7167630058,128137
+5," Sarrià - Sant Gervasi",Berna,"Garaje en calle Berna, El Putxet i el Farró, Barcelona",28 m²,25.000 €,No,None,mediano,None,None," Barcelona",148201,25606.7755102041,102272
+9," Sant Andreu",Cortit,"Garaje en calle Cortit, La Sagrera, Barcelona",10 m²,14.900 €,No,None,pequeño,automática,None," Barcelona",149826,15124.7473684211,65745
+3," Sants - Montjuïc",Cros,"Garaje en calle Cros, Sants, Barcelona",10 m²,18.500 €,No,None,None,automática,None," Barcelona",183770,14625.3931623932,79559
+5," Sarrià - Sant Gervasi",Bonaplata,"Garaje en calle Bonaplata, Sarrià, Barcelona",15 m²,42.000 €,No,None,None,None,primera planta," Barcelona",148201,25606.7755102041,102272
+5," Sarrià - Sant Gervasi",Doctor Roux,"Garaje en calle Doctor Roux, Les Tres Torres, Barcelona",14 m²,16.000 €,No,None,grande,None,None," Barcelona",148201,25606.7755102041,102272
+10," Sant Martí",Joan Miró,"Garaje en calle Joan Miró, La Vila Olímpica del Poblenou, Barcelona",26 m²,11.500 €,No,Si,None,automática,sótano," Barcelona",239465,15323.0884353741,103094
+9," Sant Andreu",Alexandre Galí,"Garaje en calle Alexandre Galí, El Congrés i els Indians, Barcelona",20 m²,23.000 €,No,None,None,None,Planta -2," Barcelona",149826,15124.7473684211,65745
+8," Nou Barris",Conveni,"Garaje en calle Conveni, La Prosperitat, Barcelona",20 m²,14.500 €,No,None,None,automática,None," Barcelona",170736,12431.811965812,66780
+2," Eixample",Casp,"Garaje en calle Casp, Fort Pienc, Barcelona",25 m²,31.200 €,No,None,None,automática,None," Barcelona",266857,18867.7167630058,128137
+2," Eixample",Aragó,"Garaje en calle Aragó, La Dreta de l'Eixample, Barcelona",9 m²,32.000 €,No,None,None,None,None," Barcelona",266857,18867.7167630058,128137
+2," Eixample",Cartagena,"Garaje en calle Cartagena, La Sagrada Família, Barcelona",7 m²,10.800 €,No,None,None,automática,None," Barcelona",266857,18867.7167630058,128137
+8," Nou Barris",Manuel Sancho,"Garaje en calle Manuel Sancho, Porta, Barcelona",10 m²,18.000 €,No,None,None,None,None," Barcelona",170736,12431.811965812,66780
