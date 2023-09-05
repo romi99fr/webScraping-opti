@@ -41,7 +41,6 @@ def merge_data(csv_df, json_data):
     return pd.DataFrame(json_data_cleaned)
 
 def main():
-    csv_file = "../csv_data/combined_df.csv"
     json_file = "../data/data.json"
     
     csv_df = read_csv(csv_file)
@@ -52,8 +51,6 @@ def main():
     # Guardar el resultado en un nuevo archivo JSON
     merged_df.to_json('../data/resultado_join.json', orient='records', lines=True, force_ascii=False)
     
-    # Guardar el resultado en un nuevo archivo CSV
-    merged_df.to_csv('../data/resultado_join.csv', index=False)
 
 if __name__ == "__main__":
     main()
