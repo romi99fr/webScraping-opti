@@ -28,7 +28,7 @@ def save_json_to_mongo(collection, json_list):
 
 def main():
     database_name = "db"
-    collection_name = "json_collection"
+    collection_name = "webScraping"
     json_file_path = "../data/resultado_join.json"
 
     collection = connect_to_mongodb(database_name, collection_name)

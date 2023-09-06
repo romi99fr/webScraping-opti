@@ -48,7 +48,7 @@ for csv in csv_info:
     url = csv["url"]
     local_file_name = csv["local_filename"]
     local_file_path = os.path.join(local_directory, local_file_name)
-    hdfs_directory = f"webScraping/{local_file_name}"
+    hdfs_directory = f"webScraping-opti/{local_file_name}"
 
     download_csv(url, local_file_path)
     upload_to_hdfs(local_file_path, hdfs_directory)

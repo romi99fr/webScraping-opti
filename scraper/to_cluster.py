@@ -11,7 +11,7 @@ def transfer_data_to_hdfs(local_path, hdfs_path):
     subprocess.run(transfer_command, check=True)
 
 def main():
-    hdfs_directory = "webScraping"
+    hdfs_directory = "webScraping-opti"
     local_data_path = "../data/data.json"
     hdfs_data_path = f"{hdfs_directory}/data.json"
     
