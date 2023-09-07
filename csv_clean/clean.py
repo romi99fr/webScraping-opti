@@ -15,6 +15,12 @@ def download_csv_files(csv_files, local_folder):
 
 def process_csv_file(file_name, df, spark):
     if file_name == "atur.csv":
+        df = df.withColumnRenamed("Dto", "Codi_Districte")
+        #  Calcular la media por distrito para el año 2021
+        aggregated_df = df.groupBy("Codi_Districte").agg(round(avg("2021"), 2).alias("€/m2"))
+        return aggregated_df.dropDuplicates()
+    
+    if file_name == "atur.csv":
         df = df.withColumnRenamed("Dte", "Codi_Districte")
         #  Calcular la media por distrito para el año 2021
         aggregated_df = df.groupBy("Codi_Districte").agg(round(avg("2021"), 2).alias("Atur"))
