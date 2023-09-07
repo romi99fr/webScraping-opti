@@ -1,9 +1,8 @@
 import subprocess
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col,avg,when,round
 from functools import reduce
-from pyspark.sql.functions import when
 
 def initialize_spark_session():
     return SparkSession.builder.appName("HDFSFileRead").getOrCreate()
@@ -16,8 +15,9 @@ def download_csv_files(csv_files, local_folder):
 
 def process_csv_file(file_name, df, spark):
     if file_name == "atur.csv":
-        # Calcular la media por distrito para el año 2021
-        aggregated_df = df.groupby("Distrito").alias("Codi_Districte")["2021"].mean()
+        df = df.withColumnRenamed("Dte", "Codi_Districte")
+        #  Calcular la media por distrito para el año 2021
+        aggregated_df = df.groupBy("Codi_Districte").agg(round(avg("2021"), 2).alias("Atur"))
         return aggregated_df.dropDuplicates()
      
     if file_name == "vehicles_districte.csv":
@@ -32,7 +32,8 @@ def process_csv_file(file_name, df, spark):
 
     if file_name == "renda_neta_mitjana_per_persona.csv":
         df = df.withColumn("Nom_Districte", when(col("Nom_Districte") == "L'Eixample", "Eixample").otherwise(col("Nom_Districte")))
-        promedio_distrito = df.groupBy("Nom_Districte").agg(F.avg("Import_Euros").alias("Promedio_Import_Euros"))
+        promedio_distrito = df.groupBy("Nom_Districte").agg(F.avg("Import_Renda_Bruta_€").alias("Promedio_Import_Euros"))
+        promedio_distrito = promedio_distrito.withColumn("Promedio_Import_Euros", round(col("Promedio_Import_Euros"), 2))
         return promedio_distrito.dropDuplicates()
 
 def main():
@@ -40,8 +41,8 @@ def main():
     csv_files = [
         "webScraping/Taula_mapa_districte.csv",
         "webScraping/renda_neta_mitjana_per_persona.csv",
-        "webScraping/vehicles_districte.csv"
-        "webScraping/atur.csv"
+        "webScraping/vehicles_districte.csv",
+        "webScraping/atur.csv",
     ]
 
     # Carpeta local donde se guardarán los archivos descargados
@@ -76,7 +77,7 @@ def main():
     final_df = final_df.join(atur, on="Codi_Districte", how="inner")
 
     # Cambiar el orden de las columnas
-    column_order = ['Codi_Districte', 'Nom_Districte', 'Personas', 'Promedio_Import_Euros', 'Vehicles', 'atur']
+    column_order = ['Codi_Districte', 'Nom_Districte', 'Personas', 'Promedio_Import_Euros', 'Vehicles', 'Atur']
     final_df = final_df.distinct()
     final_df = final_df[column_order]
     final_df = final_df.orderBy("Codi_Districte")

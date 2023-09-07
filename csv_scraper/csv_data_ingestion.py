@@ -15,7 +15,7 @@ csv_info = [
     {
         "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/802f9370-9c24-489a-9397-215220959afb/resource/f1c7e6f6-d975-4b7d-b4ce-82dd810300b1/download",
         "local_filename": "vehicles_districte.csv"
-    } 
+    }
 ]
 
 local_directory = "../csv_data"
@@ -44,3 +44,9 @@ for csv in csv_info:
 
     download_csv(url, local_file_path)
     upload_to_hdfs(local_file_path, hdfs_directory)
+
+hadoop_bin = "../../hadoop-2.7.4/bin/hdfs"
+put_command = [hadoop_bin, "dfs", "-put", "-f", "../csv_data/atur.csv", "webScraping-opti/atur.csv"]
+subprocess.run(put_command, check=True)
+
+

@@ -47,6 +47,7 @@ def merge_data(csv_df, json_data):
                 'Personas': matching_row['Personas'].values[0],
                 'Promedio_Euros': matching_row['Promedio_Import_Euros'].values[0],
                 'Vehicles': matching_row['Vehicles'].values[0],
+                'Atur': matching_row['Atur'].values[0]
             }
             json_data_cleaned.append(merged_data)
     
@@ -55,7 +56,6 @@ def merge_data(csv_df, json_data):
 def main():
     csv_file = "../csv_data/combined_df.csv"
     json_file = "../data/data.json"
-    csv_file = "../csv_data/combined_df.csv"
 
     json_data = load_json(json_file)
     csv_df = read_csv(csv_file)
@@ -65,8 +65,6 @@ def main():
     # Guardar el resultado en un nuevo archivo JSON
     merged_df.to_json('../data/resultado_join.json', orient='records', lines=True, force_ascii=False)
     
-    # Guardar el resultado en un nuevo archivo CSV
-    merged_df.to_csv('../data/resultado_join.csv', index=False)
 
 if __name__ == "__main__":
     main()
