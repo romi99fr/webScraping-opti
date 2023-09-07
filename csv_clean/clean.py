@@ -14,12 +14,12 @@ def download_csv_files(csv_files, local_folder):
         subprocess.run(["../../hadoop-2.7.4/bin/hdfs", "dfs", "-get", csv_file, local_folder])
 
 def process_csv_file(file_name, df, spark):
-    if file_name == "atur.csv":
+    if file_name == "m2.csv":
         df = df.withColumnRenamed("Dto", "Codi_Districte")
         #  Calcular la media por distrito para el año 2021
-        aggregated_df = df.groupBy("Codi_Districte").agg(round(avg("2021"), 2).alias("€/m2"))
+        aggregated_df = df.groupBy("Codi_Districte").agg(round(avg("2021"),3).alias("€/m2"))
         return aggregated_df.dropDuplicates()
-    
+
     if file_name == "atur.csv":
         df = df.withColumnRenamed("Dte", "Codi_Districte")
         #  Calcular la media por distrito para el año 2021
@@ -38,7 +38,7 @@ def process_csv_file(file_name, df, spark):
 
     if file_name == "renda_neta_mitjana_per_persona.csv":
         df = df.withColumn("Nom_Districte", when(col("Nom_Districte") == "L'Eixample", "Eixample").otherwise(col("Nom_Districte")))
-        promedio_distrito = df.groupBy("Nom_Districte").agg(F.avg("Import_Renda_Bruta_€").alias("Promedio_Import_Euros"))
+        promedio_distrito = df.groupBy("Nom_Districte").agg(F.avg("Import_Euros").alias("Promedio_Import_Euros"))
         promedio_distrito = promedio_distrito.withColumn("Promedio_Import_Euros", round(col("Promedio_Import_Euros"), 2))
         return promedio_distrito.dropDuplicates()
 
@@ -49,6 +49,7 @@ def main():
         "webScraping/renda_neta_mitjana_per_persona.csv",
         "webScraping/vehicles_districte.csv",
         "webScraping/atur.csv",
+        "webScraping/m2.csv",
     ]
 
     # Carpeta local donde se guardarán los archivos descargados
@@ -75,6 +76,7 @@ def main():
     taula_mapa_df = modified_dfs["Taula_mapa_districte.csv"]
     renda_neta_df = modified_dfs["renda_neta_mitjana_per_persona.csv"]
     atur =  modified_dfs["atur.csv"]
+    m2 =  modified_dfs["m2.csv"]
 
     final_df = vehicles_df.join(taula_mapa_df, on="Nom_Districte", how="inner")
     
@@ -82,8 +84,10 @@ def main():
 
     final_df = final_df.join(atur, on="Codi_Districte", how="inner")
 
+    final_df = final_df.join(m2, on="Codi_Districte", how="inner")
+
     # Cambiar el orden de las columnas
-    column_order = ['Codi_Districte', 'Nom_Districte', 'Personas', 'Promedio_Import_Euros', 'Vehicles', 'Atur']
+    column_order = ['Codi_Districte', 'Nom_Districte', 'Personas', 'Promedio_Import_Euros', 'Vehicles', 'Atur', '€/m2']
     final_df = final_df.distinct()
     final_df = final_df[column_order]
     final_df = final_df.orderBy("Codi_Districte")
