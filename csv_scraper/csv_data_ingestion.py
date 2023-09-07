@@ -13,14 +13,6 @@ csv_info = [
         "local_filename": "Taula_mapa_districte.csv"
     },
     {
-        "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/b7ba32eb-806e-4c9c-b0b1-9bab387fe501/resource/540e48d8-c432-43df-b3ba-a0cf009b90ef/download",
-        "local_filename": "Densitat.csv"
-    },
-    {
-        "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/620d9bd8-54e6-4d7a-88b6-4a54c40c2dc6/resource/96b2b713-7fe0-4e79-a842-0a9b2e7bffe3/download",
-        "local_filename": "Adreces_per_secció_censal.csv"
-    },
-    {
         "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/802f9370-9c24-489a-9397-215220959afb/resource/f1c7e6f6-d975-4b7d-b4ce-82dd810300b1/download",
         "local_filename": "vehicles_districte.csv"
     } 
