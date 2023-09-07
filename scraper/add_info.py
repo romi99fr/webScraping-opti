@@ -17,7 +17,7 @@ def load_data_from_json(filename):
 
 def extract_info_from_description(product_data, desc):
     # Patrones para buscar información en la descripción
-    pattern_street = r"(?i)(?<!\w)(Garaje en(?: calle)?)(?:\s+([^,]+))?"
+    pattern_street = r"(?i)(?<!\w)(Garaje en(?: calle)?)(?:\s+(?:de\s+)?(?:\s+([^,]+))?"
     pattern_door = r"(?i)(?<!\w)(?:[.,])?\s*(?:puerta(?:\s+a\s+distancia)?|mando|puerta\s+de\s+acceso\s+es\s+automática|motor|motorizada)(?:\s+(?:basculante|de acceso|mecanizada|automática|a distancia))?\b"
     pattern_floor = r"(?i)\b(?:planta\s*-?\s*(?:primera|segunda|tercera|cuarta|quinta|\d+)|primera\s*planta|segunda\s*planta|tercera\s*planta|cuarta\s*planta|quinta\s*planta|semisótano|sotano|sótano\s*-?\s*\d+|sótano\s*uno|sótano\s*dos|sótano|única\s*planta\s*sótano)\b"
     pattern_coche = r"(?i)\bcoche\s*(pequeño|mediano|grande)\b"
