@@ -47,7 +47,8 @@ def merge_data(csv_df, json_data):
                 'Personas': matching_row['Personas'].values[0],
                 'Promedio_Euros': matching_row['Promedio_Import_Euros'].values[0],
                 'Vehicles': matching_row['Vehicles'].values[0],
-                'Atur': matching_row['Atur'].values[0]
+                'Atur': matching_row['Atur'].values[0],
+                '€/m2': matching_row['€/m2'].values[0]
             }
             json_data_cleaned.append(merged_data)
     
