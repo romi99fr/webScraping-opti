@@ -15,6 +15,11 @@ def download_csv_files(csv_files, local_folder):
         subprocess.run(["../../hadoop-2.7.4/bin/hdfs", "dfs", "-get", csv_file, local_folder])
 
 def process_csv_file(file_name, df, spark):
+    if file_name == "atur.csv":
+        # Calcular la media por distrito para el año 2021
+        aggregated_df = df.groupby("Distrito").alias("Codi_Districte")["2021"].mean()
+        return aggregated_df.dropDuplicates()
+     
     if file_name == "vehicles_districte.csv":
         filtered_df = df.filter(df["Tipus_Servei"] == "Privat")
         aggregated_df = filtered_df.groupBy("Nom_Districte").agg(F.sum("Total").alias("Vehicles"))
@@ -36,6 +41,7 @@ def main():
         "webScraping/Taula_mapa_districte.csv",
         "webScraping/renda_neta_mitjana_per_persona.csv",
         "webScraping/vehicles_districte.csv"
+        "webScraping/atur.csv"
     ]
 
     # Carpeta local donde se guardarán los archivos descargados
@@ -61,13 +67,16 @@ def main():
     vehicles_df = modified_dfs["vehicles_districte.csv"]
     taula_mapa_df = modified_dfs["Taula_mapa_districte.csv"]
     renda_neta_df = modified_dfs["renda_neta_mitjana_per_persona.csv"]
+    atur =  modified_dfs["atur.csv"]
 
     final_df = vehicles_df.join(taula_mapa_df, on="Nom_Districte", how="inner")
     
     final_df = final_df.join(renda_neta_df, on="Nom_Districte", how="inner")
 
+    final_df = final_df.join(atur, on="Codi_Districte", how="inner")
+
     # Cambiar el orden de las columnas
-    column_order = ['Codi_Districte', 'Nom_Districte', 'Personas', 'Promedio_Import_Euros', 'Vehicles']
+    column_order = ['Codi_Districte', 'Nom_Districte', 'Personas', 'Promedio_Import_Euros', 'Vehicles', 'atur']
     final_df = final_df.distinct()
     final_df = final_df[column_order]
     final_df = final_df.orderBy("Codi_Districte")
