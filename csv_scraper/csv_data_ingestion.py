@@ -47,6 +47,7 @@ for csv in csv_info:
 
 hadoop_bin = "../../hadoop-2.7.4/bin/hdfs"
 put_command = [hadoop_bin, "dfs", "-put", "-f", "../csv_data/atur.csv", "webScraping-opti/atur.csv"]
+put_command = [hadoop_bin, "dfs", "-put", "-f", "../csv_data/m2.csv", "webScraping-opti/m2.csv"]
 subprocess.run(put_command, check=True)
 
 
