@@ -15,6 +15,26 @@ csv_info = [
     {
         "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/802f9370-9c24-489a-9397-215220959afb/resource/f1c7e6f6-d975-4b7d-b4ce-82dd810300b1/download",
         "local_filename": "vehicles_districte.csv"
+    },
+    {
+        "local_path": "../csv_data/atur.csv",
+        "local_filename": "atur.csv"
+    },
+    {
+        "local_path": "../csv_data/m2.csv",
+        "local_filename": "m2.csv"
+    },
+    {
+        "local_path": "../csv_data/allotjament_turistic.csv",
+        "local_filename": "allotjament_turistic.csv"
+    },
+    {
+        "local_path": "../csv_data/promedio_ventas.csv",
+        "local_filename": "promedio_ventas.csv"
+    },
+    {
+        "local_path": "../csv_data/seguretat.csv",
+        "local_filename": "seguretat.csv"
     }
 ]
 
@@ -37,17 +57,19 @@ def upload_to_hdfs(local_file_path, hdfs_directory):
     print(f"Uploaded '{local_file_path}' to HDFS directory '{hdfs_directory}'.")
 
 for csv in csv_info:
-    url = csv["url"]
-    local_file_name = csv["local_filename"]
-    local_file_path = os.path.join(local_directory, local_file_name)
-    hdfs_directory = f"webScraping-opti/{local_file_name}"
+    if "url" in csv:
+        url = csv["url"]
+        local_file_name = csv["local_filename"]
+        local_file_path = os.path.join(local_directory, local_file_name)
+        hdfs_directory = f"webScraping-opti/{local_file_name}"
 
-    download_csv(url, local_file_path)
-    upload_to_hdfs(local_file_path, hdfs_directory)
+        download_csv(url, local_file_path)
+        upload_to_hdfs(local_file_path, hdfs_directory)
+    elif "local_path" in csv:
+        local_file_path = csv["local_path"]
+        local_file_name = csv["local_filename"]
+        hdfs_directory = f"webScraping-opti/{local_file_name}"
 
-hadoop_bin = "../../hadoop-2.7.4/bin/hdfs"
-put_command = [hadoop_bin, "dfs", "-put", "-f", "../csv_data/atur.csv", "webScraping-opti/atur.csv"]
-put_command = [hadoop_bin, "dfs", "-put", "-f", "../csv_data/m2.csv", "webScraping-opti/m2.csv"]
-subprocess.run(put_command, check=True)
+        upload_to_hdfs(local_file_path, hdfs_directory)
 
 

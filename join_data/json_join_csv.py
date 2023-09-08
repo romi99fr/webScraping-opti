@@ -48,7 +48,13 @@ def merge_data(csv_df, json_data):
                 'Promedio_Euros': matching_row['Promedio_Import_Euros'].values[0],
                 'Vehicles': matching_row['Vehicles'].values[0],
                 'Atur': matching_row['Atur'].values[0],
-                "€_m2": matching_row["€/m2"].values[0]
+                "€_m2": matching_row["€/m2"].values[0],
+                "Denuncias_Convivencia": matching_row["Denuncias_Convivencia"].values[0],
+                "Incidents_Degradacion": matching_row["Incidents_Degradacion"].values[0],
+                "Promedio_Vivienda": matching_row["Promedio_Vivienda"].values[0],
+                "Habitatges turístics": matching_row["Habitatges_dus_turístic"].values[0],
+                "Hotels": matching_row["Hotel"].values[0],
+                "Residències estudiants": matching_row["Residències estudiants"].values[0],
             }
             json_data_cleaned.append(merged_data)
     
@@ -66,6 +72,11 @@ def main():
     # Guardar el resultado en un nuevo archivo JSON
     merged_df.to_json('../data/resultado_join.json', orient='records', lines=True, force_ascii=False, date_format='iso')
     
+    # Ruta donde deseas guardar el archivo CSV
+    csv_output_path = "../data/resultado_join.csv"
+
+    # Guardar el DataFrame en formato CSV
+    merged_df.to_csv(csv_output_path, index=False)
 
 if __name__ == "__main__":
     main()
