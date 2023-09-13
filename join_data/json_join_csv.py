@@ -55,6 +55,34 @@ def merge_data(csv_df, json_data):
                 "Habitatges turístics": matching_row["Habitatges_dus_turístic"].values[0],
                 "Hotels": matching_row["Hotel"].values[0],
                 "Residències estudiants": matching_row["Residències estudiants"].values[0],
+                "Parcs urbans": matching_row["Parcs urbans"].values[0],
+                "Arbres al carrer": matching_row["Arbres al carrer"].values[0],
+                "Turismes": matching_row["Turismes"].values[0],
+                "Superfície (km²)": matching_row["Superfície (km²)"].values[0],
+                "Habitants/Turisme": matching_row["Habitants/Turisme"].values[0],
+                "Turismes/km²": matching_row["Turismes/km²"].values[0],
+                "Total Guals": matching_row["Total Guals"].values[0],
+                "A peu + bicicleta a treballar": matching_row["A peu + bicicleta"].values[0],
+                "Transport privat a treballar": matching_row["Transport privat"].values[0],
+                "Transport públic a treballar": matching_row["Transport públic"].values[0],
+                "Nacionalitats espanyoles": matching_row["Nacionalitat espanyola"].values[0],
+                "Nacionalitats estrangeres": matching_row["Nacionalitat estrangera"].values[0],
+                "Població Total": matching_row["PoblacióTotal"].values[0],
+                "Densitat de població (hab/km²)": matching_row["Densitat de població (hab/km²)"].values[0],
+                "Edat mitjana": matching_row["Edat mitjana"].values[0],
+                "Domicilis": matching_row["Domicilis"].values[0],
+                "Superficie Residencial": matching_row["Residencial"].values[0],
+                "Superficie Equipaments": matching_row["Equipaments"].values[0],
+                "Superficie Indústria i infraestructures": matching_row["Indústria i infraestructures"].values[0],
+                "Superficie Xarxa viària": matching_row["Xarxa viària"].values[0],
+                "Superficie Parcs forestals": matching_row["Parcs forestals"].values[0],
+                "Aparcaments Total": matching_row["Nombre de places aparcament Total"].values[0],
+                "Aparcaments Residencies": matching_row["Nombre de places aparcament Residencies"].values[0],
+                "Aparcament Altres edificis": matching_row["Nombre de places aparcament Altres edificis"].values[0],
+                "Centres Civics": matching_row["Nombre de Centres Civics"].values[0],
+
+
+
             }
             json_data_cleaned.append(merged_data)
     
@@ -72,11 +100,6 @@ def main():
     # Guardar el resultado en un nuevo archivo JSON
     merged_df.to_json('../data/resultado_join.json', orient='records', lines=True, force_ascii=False, date_format='iso')
     
-    # Ruta donde deseas guardar el archivo CSV
-    csv_output_path = "../data/resultado_join.csv"
-
-    # Guardar el DataFrame en formato CSV
-    merged_df.to_csv(csv_output_path, index=False)
 
 if __name__ == "__main__":
     main()
