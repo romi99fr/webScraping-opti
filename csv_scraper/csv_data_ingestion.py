@@ -33,8 +33,8 @@ csv_info = [
         "local_filename": "centresCivics.csv"
     },
     {
-        "local_path": "../csv_data/densitat_turisme.csv",
-        "local_filename": "densitat_turisme.csv"
+        "local_path": "../csv_data/densitat_turismes.csv",
+        "local_filename": "densitat_turismes.csv"
     },
     {
         "local_path": "../csv_data/guals.csv",

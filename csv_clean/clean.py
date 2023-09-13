@@ -16,7 +16,7 @@ def download_csv_files(csv_files, local_folder):
 def process_csv_file(file_name, df, spark):
     if file_name == "centresCivics.csv":
         df = df.withColumnRenamed("Districte", "Nom_Districte")
-        result = df.groupBy("Districte").agg(F.count("Centre cívic").alias("Nombre de Centres Civics"))
+        result = df.groupBy("Nom_Districte").agg(F.count("Centre cívic").alias("Nombre de Centres Civics"))
 
         return result
     
@@ -25,7 +25,7 @@ def process_csv_file(file_name, df, spark):
         df = df.withColumnRenamed("Nombre de places d'aparcament Total", "Nombre de places aparcament Total")
         df = df.withColumnRenamed("Nombre de places d'aparcament Residencies", "Nombre de places aparcament Residencies")
         df = df.withColumnRenamed("Nombre de places d'aparcament Altres edificis", "Nombre de places aparcament Altres edificis")
-        selected_columns = ["Nom_Districte", "Nombre de places d'aparcament Total","Nombre de places d'aparcament Residencies", "Nombre de places d'aparcament Altres edificis"]
+        selected_columns = ["Nom_Districte", "Nombre de places aparcament Total","Nombre de places aparcament Residencies", "Nombre de places aparcament Altres edificis"]
         selected_df = df.select(*selected_columns)
 
         return selected_df
@@ -66,7 +66,7 @@ def process_csv_file(file_name, df, spark):
 
         return selected_df
     
-    if file_name == "densitat_turisme.csv":
+    if file_name == "densitat_turismes.csv":
         df = df.withColumnRenamed("Districte", "Nom_Districte")
         selected_columns = ["Nom_Districte","Turismes","Superfície (km²)","Habitants/Turisme","Turismes/km²"]
         selected_df = df.select(*selected_columns)
@@ -88,7 +88,7 @@ def process_csv_file(file_name, df, spark):
         
         return selected_df
     
-    if file_name == "promedio_vivienda.csv":
+    if file_name == "promedio_ventas.csv":
         filtered_df = df.select("Codi_Districte", "Promedio €/m2", "Promedio_Vivienda")
         return filtered_df
 
