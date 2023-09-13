@@ -99,7 +99,8 @@ def main():
     
     # Guardar el resultado en un nuevo archivo JSON
     merged_df.to_json('../data/resultado_join.json', orient='records', lines=True, force_ascii=False, date_format='iso')
-    
+    merged_df.to_csv('../data/resultado_join.csv')    
+
 
 if __name__ == "__main__":
     main()
