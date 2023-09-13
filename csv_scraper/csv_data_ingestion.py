@@ -17,6 +17,42 @@ csv_info = [
         "local_filename": "vehicles_districte.csv"
     },
     {
+        "local_path": "../csv_data/poblacio.csv",
+        "local_filename": "poblacio.csv"
+    },
+    {
+        "local_path": "../csv_data/aparcaments.csv",
+        "local_filename": "aparcaments.csv"
+    },
+    {
+        "local_path": "../csv_data/arbres_parcs.csv",
+        "local_filename": "arbres_parcs.csv"
+    },
+    {
+        "local_path": "../csv_data/centresCivics.csv",
+        "local_filename": "centresCivics.csv"
+    },
+    {
+        "local_path": "../csv_data/densitat_turisme.csv",
+        "local_filename": "densitat_turisme.csv"
+    },
+    {
+        "local_path": "../csv_data/guals.csv",
+        "local_filename": "guals.csv"
+    },
+    {
+        "local_path": "../csv_data/mobilitat_feina.csv",
+        "local_filename": "mobilitat_feina.csv"
+    },
+    {
+        "local_path": "../csv_data/nacionalitats.csv",
+        "local_filename": "nacionalitats.csv"
+    },
+    {
+        "local_path": "../csv_data/us_del_sol.csv",
+        "local_filename": "us_del_sol.csv"
+    },
+    {
         "local_path": "../csv_data/atur.csv",
         "local_filename": "atur.csv"
     },
