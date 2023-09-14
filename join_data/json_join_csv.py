@@ -44,9 +44,7 @@ def merge_data(csv_df, json_data):
                 'Puerta': item['Puerta'],
                 'Planta': item['Planta'],
                 'Ciudad': address['Ciudad'],                
-                'Personas': matching_row['Personas'].values[0],
                 'Promedio_Euros': matching_row['Promedio_Import_Euros'].values[0],
-                'Vehicles': matching_row['Vehicles'].values[0],
                 'Atur': matching_row['Atur'].values[0],
                 "€_m2": matching_row["€/m2"].values[0],
                 "Denuncias_Convivencia": matching_row["Denuncias_Convivencia"].values[0],
@@ -96,6 +94,7 @@ def main():
     csv_df = read_csv(csv_file)
 
     merged_df = merge_data(csv_df, json_data)
+    print(len(merged_df))
     
     # Guardar el resultado en un nuevo archivo JSON
     merged_df.to_json('../data/resultado_join.json', orient='records', lines=True, force_ascii=False, date_format='iso')

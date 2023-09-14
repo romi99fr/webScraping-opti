@@ -9,14 +9,6 @@ csv_info = [
         "local_filename": "renda_neta_mitjana_per_persona.csv"
     },
     {
-        "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/de5c4f45-24eb-4672-9bc4-f12508a0060a/resource/cd3125e4-f7d3-4217-8f9d-6d7abdad6ab0/download",
-        "local_filename": "Taula_mapa_districte.csv"
-    },
-    {
-        "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/802f9370-9c24-489a-9397-215220959afb/resource/f1c7e6f6-d975-4b7d-b4ce-82dd810300b1/download",
-        "local_filename": "vehicles_districte.csv"
-    },
-    {
         "local_path": "../csv_data/poblacio.csv",
         "local_filename": "poblacio.csv"
     },
