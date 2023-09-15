@@ -11,18 +11,21 @@ def connect_to_mongodb(database_name, collection_name):
 def read_json_file(json_file_path):
     json_list = []
 
-    with open(json_file_path, "r") as json_file:
-        for line in json_file:
-            try:
-                json_data = json.loads(line)
-                json_list.append(json_data)
-
-            except json.JSONDecodeError:
-                print("Error de decodificación JSON en la línea:", line)
+    try:
+        with open(json_file_path, "r") as json_file:
+            for line in json_file:
+                # Elimina cualquier espacio en blanco al principio o final de la línea
+                line = line.strip()
+                if line:
+                    json_data = json.loads(line)
+                    json_list.append(json_data)
+    except json.JSONDecodeError as e:
+        print("Error de decodificación JSON:", str(e))
 
     return json_list
 
 def save_json_to_mongo(collection, json_list):
+    collection.delete_many({})
     if json_list:
         collection.insert_many(json_list)
 
@@ -32,7 +35,7 @@ def main():
     json_file_path = "../data/resultado_join.json"
 
     collection = connect_to_mongodb(database_name, collection_name)
-    json_list = read_json_file(json_file_path)
+    json_list = read_json_file(json_file_path) 
     save_json_to_mongo(collection, json_list)
 
     print("Datos almacenados en MongoDB con éxito.")
