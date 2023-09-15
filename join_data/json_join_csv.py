@@ -92,9 +92,8 @@ def main():
 
     json_data = load_json(json_file)
     csv_df = read_csv(csv_file)
-
+    csv_df['Nom_Districte'] = csv_df['Nom_Districte'].str.replace("L'Eixample", 'Eixample')
     merged_df = merge_data(csv_df, json_data)
-    print(len(merged_df))
     
     # Guardar el resultado en un nuevo archivo JSON
     merged_df.to_json('../data/resultado_join.json', orient='records', lines=True, force_ascii=False, date_format='iso')
